@@ -1,4 +1,89 @@
 <!DOCTYPE html>
 <html lang="ru">
     <!-- Ваше решение -->
+    <head>
+        <meta charset="utf-8">
+        <title>Семантическая разметка страницы</title>
+    </head>
+    <body>
+        <header>
+            <h1>Header</h1>
+			<nav>
+				<a href="#">Navigation 1</a>
+				<a href="#">Navigation 2</a>
+				<a href="#">Navigation 3</a>
+			</nav>
+        </header>
+		<main>
+			<article>
+				<h2>Article 1</h2>
+				<ul>
+					<li>Оригинальная трилогия</li>
+					<li>Трилогия приквелов</li>
+					<li>Трилогия сиквелов</li>
+				</ul>
+			</article>
+			<article>
+				<h2>Article 2</h2>
+				<ol>
+					<li>Оригинальная трилогия</li>
+					<li>Трилогия приквелов</li>
+					<li>Трилогия сиквелов</li>
+				</ol>
+			</article>
+		</main>
+		<footer>
+			<p>Footer</p>
+		 </footer>
+    </body>
 </html>
+<style>
+	header {
+	text-align: center;
+	color: #ffffff;
+  	}
+  	h1 {
+		background-color: red;
+		font-size: 50px;
+		vertical-align: top;
+	}
+	nav {
+		background-color: orange;
+		vertical-align: top;
+		padding: 10px;
+	}
+	a {
+		font-size: 28px;
+		color: #ffffff;
+		text-decoration: underline;
+	}
+	main {
+		background-color: green;
+		padding: 10px;
+	}
+	article {
+		background-color: blue;
+		padding: 30px;
+		margin: 5px;
+		color: #ffffff;
+		line-height: 22px;
+	}
+	h2 {
+		padding-bottom: 15px;
+		font-size: 27px;
+	}
+	li {
+		font-size: 16px;
+	}
+	footer {
+		background-color: rgb(151, 15, 151);
+		text-align: center;
+		padding: 5px;
+		color: #ffffff;
+		font-size: 47px;
+	}
+	*{
+    margin:0;
+    padding:0;
+	}
+</style>
